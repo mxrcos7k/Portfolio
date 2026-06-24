@@ -1,0 +1,352 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.h1s{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1.7em;
+    padding-block: 20px;  
+}
+
+html{
+    font-size: 90%;
+    
+}
+
+body{
+    background-color: #F8F8F8;
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    
+}
+
+#menunav{  
+    list-style: none;
+    text-align: center;
+}
+
+.lista{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline-block;
+    padding: 40px;
+    color: black;
+    
+}
+
+.linkmenu{
+   text-decoration: none; 
+   color: black;
+}
+
+
+/* Primeira section sobremim */
+section#sobremim{
+    border: 1px solid #DBDBDB;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #F8F8F8;
+    padding-inline: 10px;
+}
+
+#img01{
+    padding-top: 15px;
+}
+
+#container1{
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: 3fr;
+
+}
+.item{
+    margin-block: 30px;
+    min-height: 250px;
+}
+
+#paragrafo1{
+    padding-bottom: 15px;
+}
+
+div.item > h1{
+    font-family: "Inter", sans-serif;
+    padding-bottom: 15px;
+    
+}
+
+div.item > p{
+    font-family: "Inter", sans-serif;
+}
+
+/* div interesses */
+div#apresentacao{
+    font-size: 14px;
+    padding: 30px;
+}
+
+div#interesses{
+    min-height: 200px;
+    padding-block: 25px;
+    padding-left: 15px;
+    align-self: center;
+    margin: 10px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    border: 1px solid #DBDBDB;
+    
+}
+
+#interesses > h3{
+    font-family: "Inter", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+#interesses > p{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+i{
+    padding-right: 10px;
+}
+
+/* div interesses */
+/* Primeira section sobremim */
+
+
+
+
+
+/* Segunda section Formação */
+ section#formacao{
+    border-left:1px solid #DBDBDB; 
+    border-right:1px solid #DBDBDB; 
+    background-color: #F8F8F8;
+    padding-inline: 10px;
+}
+
+
+#container2{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 3fr;
+}
+
+.item2{
+    min-height: 250px;
+    font-family: "Inter", sans-serif;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    margin: 10px;
+    margin-bottom: 65px;
+    background-color: #F2F2F2;
+    
+}
+
+.item2 > h3{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.item2 > p{
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.item2 > ul{
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.listacursos{
+    padding-block: 5px; 
+}
+
+
+
+
+
+
+
+
+/* Segunda section Formação */
+section#portifolio{
+    border:1px solid #DBDBDB; 
+    border-bottom: none;
+    background-color: #F8F8F8;
+    padding-inline: 10px;
+}
+
+section#portifolio > h1{
+    text-align: center;
+}
+
+#container3{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 3fr;
+}
+
+.item3{
+    min-height: 250px;
+    font-family: "Inter", sans-serif;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    margin: 10px;
+    margin-bottom: 65px;
+    background-color: #F2F2F2;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.item3 > h3{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.item3 > p{
+    text-align: center;
+    padding-top: 22px;
+    padding-inline: 1px;
+}
+
+.linkprojeto{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.iconebotao{
+    padding-left: 5px;
+    padding-right: 2px;
+    
+}
+
+ .btn-projeto{
+    background-color: #0078d4;
+    display: inline-flex;
+    align-items: flex-start;
+    margin-top: auto; /* mágica acontece aqui */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    padding-block: 10px;
+    padding-inline: 5px;
+    border: 1px solid #c6c4c4;
+    border-radius: 5px;
+    transition: 0.2s;
+    width: fit-content
+}
+
+
+.btn-projeto:hover{
+    background-color: #0063b1;
+} 
+
+
+
+
+
+
+
+
+
+
+
+/* Section Contato */
+section#contato{
+    border:1px solid #DBDBDB; 
+    background-color: #F8F8F8;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-inline: 10px;
+}
+
+#container4{
+    min-height: 550px;
+    font-family: "Inter", sans-serif;  
+}
+
+#h1contato{
+    padding-bottom: 40px;
+}
+
+#formContato {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin: auto;
+    
+}
+
+#formContato label {
+    padding-top: 15px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    font-size: 14px;
+    
+    
+}
+
+#formContato input,
+#formContato textarea {
+    background: #F2F2F2;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #c6c4c4;
+}
+
+#formContato textarea {
+    height: 100px;
+    resize: none;
+    
+}
+
+#formContato button {
+    
+    padding: 15px;
+    border: 1px solid #c6c4c4;
+    border-radius: 5px;
+    background-color: #0078d4;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#formContato button:hover {
+    background-color: #0063b1;
+}
+/* Section Contato */
+
+#lala{
+    padding-top: 20px;
+}
+
