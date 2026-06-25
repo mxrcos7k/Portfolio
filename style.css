@@ -1,12 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/* config global */
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+/* todos os principais titulos */
 .h1s{
     text-align: center;
     font-family: "Inter", sans-serif;
@@ -14,6 +16,7 @@
     padding-block: 20px;  
 }
 
+/* as letras estavam grandes, entao usei isso pra reduzir tudo de uma vez */
 html{
     font-size: 90%;
     
@@ -23,6 +26,7 @@ body{
     background-color: #F8F8F8;
 }
 
+
 main{
     max-width: 900px;
     margin: auto;
@@ -30,6 +34,7 @@ main{
     
 }
 
+/* menu de navegação */
 #menunav{  
     list-style: none;
     text-align: center;
@@ -49,6 +54,7 @@ main{
    text-decoration: none; 
    color: black;
 }
+
 
 
 /* Primeira section sobremim */
@@ -89,6 +95,7 @@ div.item > p{
     font-family: "Inter", sans-serif;
 }
 
+
 /* div interesses */
 div#apresentacao{
     font-size: 14px;
@@ -125,14 +132,12 @@ i{
     padding-right: 10px;
 }
 
-/* div interesses */
-/* Primeira section sobremim */
 
 
 
 
 
-/* Segunda section Formação */
+/* section Formação */
  section#formacao{
     border-left:1px solid #DBDBDB; 
     border-right:1px solid #DBDBDB; 
@@ -188,15 +193,15 @@ i{
 
 
 
-/* Segunda section Formação */
-section#portifolio{
+/* section do portfolio */
+section#portfolio{
     border:1px solid #DBDBDB; 
     border-bottom: none;
     background-color: #F8F8F8;
     padding-inline: 10px;
 }
 
-section#portifolio > h1{
+section#portfolio > h1{
     text-align: center;
 }
 
@@ -217,7 +222,6 @@ section#portifolio > h1{
 
     display: flex;
     flex-direction: column;
-    
 }
 
 .item3 > h3{
@@ -231,6 +235,11 @@ section#portifolio > h1{
     padding-inline: 1px;
 }
 
+
+
+
+
+ /* css do botao do portfolio */
 .linkprojeto{
     color: white;
     font-weight: bold;
@@ -258,8 +267,6 @@ section#portifolio > h1{
     transition: 0.2s;
     width: fit-content
 }
-
-
 .btn-projeto:hover{
     background-color: #0063b1;
 } 
@@ -269,12 +276,7 @@ section#portifolio > h1{
 
 
 
-
-
-
-
-
-/* Section Contato */
+/* Section Contato  parte do formulario*/
 section#contato{
     border:1px solid #DBDBDB; 
     background-color: #F8F8F8;
@@ -306,9 +308,7 @@ section#contato{
     padding-top: 15px;
     font-weight: bold;
     margin-bottom: 6px;
-    font-size: 14px;
-    
-    
+    font-size: 14px;  
 }
 
 #formContato input,
@@ -324,8 +324,7 @@ section#contato{
 
 #formContato textarea {
     height: 100px;
-    resize: none;
-    
+    resize: none; 
 }
 
 #formContato button {
@@ -344,9 +343,8 @@ section#contato{
 #formContato button:hover {
     background-color: #0063b1;
 }
-/* Section Contato */
 
-#lala{
+#space{
     padding-top: 20px;
 }
 
